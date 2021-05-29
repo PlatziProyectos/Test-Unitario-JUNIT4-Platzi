@@ -1,9 +1,12 @@
 package com.whnm.javatest.util;
 
 import org.junit.Assert;
+import org.junit.Test;
 
 public class StringUtilTest {
-    public static void main(String[] args) {
+
+    @Test
+    public void testRepeat() {
         Assert.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
         Assert.assertEquals("hola" , StringUtil.repeat("hola", 1));
     }
