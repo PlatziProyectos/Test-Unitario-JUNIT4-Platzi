@@ -9,10 +9,9 @@ public class StringUtilTest {
         assertEquals(word2, "hola");
     }
 
-    private static void assertEquals(String word, String holaholahola) {
+    private static void assertEquals(String resultado, String resultadoEsperado) {
 
-        if (!word.equals("holaholahola")){
-            //System.out.println("ERROR");
+        if (!resultado.equals(resultadoEsperado)){
             throw new RuntimeException("ERROR");
         }
 
