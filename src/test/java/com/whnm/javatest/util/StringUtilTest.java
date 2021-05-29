@@ -4,7 +4,7 @@ import org.junit.Assert;
 
 public class StringUtilTest {
     public static void main(String[] args) {
-        Assert.assertEquals(StringUtil.repeat("hola", 3), "holaholahol");
-        Assert.assertEquals(StringUtil.repeat("hola", 1), "hola");
+        Assert.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
+        Assert.assertEquals("hola" , StringUtil.repeat("hola", 1));
     }
 }
