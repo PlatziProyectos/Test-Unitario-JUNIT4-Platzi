@@ -16,4 +16,14 @@ public class StringUtil {
         
         return result;
     }
+
+    public static boolean isEmpty(String word){
+        if (word == null || word.trim().isEmpty()){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
 }
